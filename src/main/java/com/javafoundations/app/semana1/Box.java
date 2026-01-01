@@ -2,7 +2,7 @@ package com.javafoundations.app.semana1;
 
 /** Box. */
 public class Box<T> {
-  T value;
+  private T value;
 
   /**
    * Create a box with a generic / it can be null.
@@ -41,6 +41,6 @@ public class Box<T> {
    * @return Boolean
    */
   public boolean isEmpty() {
-    return value == null ? true : false;
+    return value == null;
   }
 }

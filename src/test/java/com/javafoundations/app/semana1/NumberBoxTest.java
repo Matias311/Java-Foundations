@@ -11,20 +11,19 @@ import org.junit.jupiter.api.Test;
 /** NumberBoxTest. */
 @DisplayName("Tests for number box class")
 public class NumberBoxTest {
-  NumberBox<Number> numBox;
 
   @Test
   @DisplayName("Test for method doubleValue() with integer")
   void doubleValueWorksForInteger() {
-    numBox = new NumberBox<>(42);
-    assertEquals(42.0, numBox.doubleValue());
+    NumberBox<Integer> ni = new NumberBox<>(42);
+    assertEquals(42.0, ni.doubleValue());
   }
 
   @Test
   @DisplayName("Test for method doubleValue() with double")
   void doubleValueWorksForDouble() {
-    numBox = new NumberBox<>(3.2);
-    assertEquals(3.2, numBox.doubleValue());
+    NumberBox<Double> nd = new NumberBox<>(3.2);
+    assertEquals(3.2, nd.doubleValue());
   }
 
   @Test

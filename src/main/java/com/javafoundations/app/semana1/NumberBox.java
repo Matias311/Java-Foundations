@@ -4,14 +4,14 @@ import java.util.List;
 
 /** NumberBox. */
 public class NumberBox<T extends Number> {
-  T number; // it can not be null
+  private final T number; // it can not be null
 
   /**
    * Creates a NumberBox. It can not be null.
    *
    * @param number Number
    */
-  public NumberBox(T number) throws IllegalArgumentException {
+  public NumberBox(T number) {
     if (number == null) {
       throw new IllegalArgumentException("number cannot be null");
     }
