@@ -1,3 +1,6 @@
 /Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana1/Box.java
 /Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana1/Calculator.java
 /Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana1/NumberBox.java
+/Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana2/repository/InMemoryRepository.java
+/Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana2/repository/NotFoundException.java
+/Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana2/repository/Repository.java
