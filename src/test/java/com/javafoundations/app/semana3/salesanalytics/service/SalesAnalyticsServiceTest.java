@@ -180,7 +180,8 @@ public class SalesAnalyticsServiceTest {
     assertAll(
         "Checks the duplicate values",
         () -> assertTrue(duplicate.contains("11")),
-        () -> assertTrue(duplicate.contains("23")));
+        () -> assertTrue(duplicate.contains("23")),
+        () -> assertEquals(2, duplicate.size()));
   }
 
   @Test

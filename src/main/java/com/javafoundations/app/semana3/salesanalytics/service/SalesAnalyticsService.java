@@ -54,7 +54,13 @@ public class SalesAnalyticsService {
   }
 
   public Set<String> duplicateSaleIds(List<SaleRecord> sales) {
-    return sales.stream().map(SaleRecord::getSaleId).collect(Collectors.toSet());
+    return sales.stream()
+        .collect(Collectors.groupingBy(SaleRecord::getSaleId, Collectors.counting()))
+        .entrySet()
+        .stream()
+        .filter(entry -> entry.getValue() > 1)
+        .map(Map.Entry::getKey)
+        .collect(Collectors.toSet());
   }
 
   public List<SaleRecord> findRevenueOutliners(List<SaleRecord> sales, BigDecimal threshold) {
