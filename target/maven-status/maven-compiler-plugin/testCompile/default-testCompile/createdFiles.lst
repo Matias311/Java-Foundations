@@ -1,3 +1,12 @@
 com/javafoundations/app/semana1/CalculatorTest.class
-com/javafoundations/app/semana1/BoxTest.class
+com/javafoundations/app/semana2/repository/InMemoryRepositoryTest.class
+com/javafoundations/app/semana2/repository/InMemoryRepositoryTest$TestKeyNull.class
+com/javafoundations/app/semana3/salesanalytics/model/SaleRecordTest.class
 com/javafoundations/app/semana1/NumberBoxTest.class
+com/javafoundations/app/semana3/salesanalytics/model/SaleRecordTest$TestNullValues.class
+com/javafoundations/app/semana2y3/OptionalBasicoTest.class
+com/javafoundations/app/semana2/CalculatorFunctionalInterfacesTest.class
+com/javafoundations/app/semana1/BoxTest.class
+com/javafoundations/app/semana3/salesanalytics/parser/ParserCsvTest.class
+com/javafoundations/app/semana3/salesanalytics/model/SaleRecordTest$TestEmptyValues.class
+com/javafoundations/app/semana3/salesanalytics/service/SalesAnalyticsServiceTest.class
