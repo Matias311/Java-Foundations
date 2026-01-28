@@ -1,6 +1,14 @@
 /Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana1/Box.java
 /Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana1/Calculator.java
 /Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana1/NumberBox.java
+/Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana2/CalculatorFunctionalInterfaces.java
+/Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana2/Operation.java
 /Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana2/repository/InMemoryRepository.java
 /Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana2/repository/NotFoundException.java
 /Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana2/repository/Repository.java
+/Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana3/salesanalytics/SalesAnalyticsApp.java
+/Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana3/salesanalytics/exceptions/FileArgumentException.java
+/Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana3/salesanalytics/model/ProductRevenue.java
+/Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana3/salesanalytics/model/SaleRecord.java
+/Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana3/salesanalytics/parser/ParserCsv.java
+/Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana3/salesanalytics/service/SalesAnalyticsService.java

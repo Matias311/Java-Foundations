@@ -1,0 +1,15 @@
+sale_id,timestamp,product_id,product_name,category,quantity,unit_price
+S-1001,2026-01-01T10:15:00,P-01,Mouse,Accessories,2,19.99
+S-1002,2026-01-01T12:40:00,P-02,Keyboard,Accessories,1,49.90
+S-1003,2026-01-02T09:05:00,P-03,Monitor,Hardware,1,199.99
+S-1004,2026-01-02T11:20:00,P-01,Mouse,Accessories,3,19.99
+S-1005,2026-01-03T16:10:00,P-04,Laptop,Hardware,1,899.00
+S-1006,2026-01-03T18:30:00,P-05,USB-C Cable,Accessories,5,7.50
+S-1007,2026-01-03T19:00:00,P-06,Coffee,Office,10,1.20
+S-1008,2026-01-04T08:00:00,P-03,Monitor,Hardware,2,199.99
+S-1009,2026-01-04T10:00:00,P-07,Notebook,Office,4,2.50
+S-1010,2026-01-04T12:00:00,P-08,Desk,Office,1,150.00
+S-1011,2026-01-04T13:00:00,P-09,Chair,Office,1,120.00
+S-1012,2026-01-05T09:00:00,P-10,Headphones,Accessories,2,35.00
+S-1012,2026-01-05T09:00:00,P-10,Headphones,Accessories,2,35.00
+S-1013,2026-01-06T10:30:00,P-11,Server Rack,Hardware,1,12000.00
