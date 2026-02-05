@@ -4,6 +4,7 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.YearMonth;
+import java.util.Objects;
 
 public final class SaleRecord {
   private String saleId;
@@ -105,8 +106,41 @@ public final class SaleRecord {
     return timestamp;
   }
 
+  public int getHour() {
+    return timestamp.getHour();
+  }
+
+  // @Override
+  // public int hashCode() {
+  //   return Objects.hash(saleId);
+  // }
+  //
+  // @Override
+  // public boolean equals(Object obj) {
+  //   if (this == obj) return true;
+  //   if (obj == null) return false;
+  //   if (getClass() != obj.getClass()) return false;
+  //   if (!(obj instanceof SaleRecord)) return false;
+  //   SaleRecord that = (SaleRecord) obj;
+  //   return Objects.equals(saleId, that.saleId);
+  // }
+
   public LocalDate getLocalDate() {
     return timestamp.toLocalDate();
+  }
+
+  @Override
+  public int hashCode() {
+    return Objects.hash(saleId);
+  }
+
+  @Override
+  public boolean equals(Object obj) {
+    if (this == obj) return true;
+    if (obj == null) return false;
+    if (!(obj instanceof SaleRecord)) return false;
+    SaleRecord other = (SaleRecord) obj;
+    return Objects.equals(this.saleId, other.saleId);
   }
 
   public YearMonth getYearMonth() {
