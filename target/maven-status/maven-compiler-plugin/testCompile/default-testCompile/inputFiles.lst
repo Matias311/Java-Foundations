@@ -7,3 +7,4 @@
 /Users/matias/dev/Java/java-foundations/src/test/java/com/javafoundations/app/semana3/salesanalytics/model/SaleRecordTest.java
 /Users/matias/dev/Java/java-foundations/src/test/java/com/javafoundations/app/semana3/salesanalytics/parser/ParserCsvTest.java
 /Users/matias/dev/Java/java-foundations/src/test/java/com/javafoundations/app/semana3/salesanalytics/service/SalesAnalyticsServiceTest.java
+/Users/matias/dev/Java/java-foundations/src/test/java/com/javafoundations/app/semana4/StrategyPattern/SortStrategyTest.java
