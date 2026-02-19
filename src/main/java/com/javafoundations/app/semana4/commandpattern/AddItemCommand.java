@@ -2,21 +2,21 @@ package com.javafoundations.app.semana4.commandpattern;
 
 public class AddItemCommand implements Command {
 
-  private Item item;
-  private String s;
+  private ItemManager item;
+  private String name;
 
-  public AddItemCommand(Item item, String s) {
+  public AddItemCommand(ItemManager item, String name) {
     this.item = item;
-    this.s = s;
+    this.name = name;
   }
 
   @Override
   public void execute() {
-    item.createItem(s);
+    item.createItem(name);
   }
 
   @Override
   public void undo() {
-    item.deleteItem(s);
+    item.deleteItem(name);
   }
 }

@@ -1,27 +1,28 @@
 package com.javafoundations.app.semana4.commandpattern;
 
-import java.util.Stack;
+import java.util.ArrayDeque;
+import java.util.Deque;
 
 public class CommandHistory {
 
-  private Stack<Command> commandHistory = new Stack<>();
+  private Deque<Command> commandHistory = new ArrayDeque<>();
 
   public void execute(Command command) {
     command.execute();
-    commandHistory.add(command);
+    commandHistory.push(command);
   }
 
-  public void undo() {
+  public boolean undo() {
     if (!commandHistory.isEmpty()) {
       Command ultimo = commandHistory.pop();
       ultimo.undo();
-      System.out.println("Command undo executed");
+      return true;
     } else {
-      System.out.println("Can not be execute");
+      return false;
     }
   }
 
-  public Stack<Command> getHistory() {
-    return commandHistory;
+  public Deque<Command> getHistory() {
+    return new ArrayDeque<>(commandHistory);
   }
 }

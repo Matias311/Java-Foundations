@@ -2,21 +2,21 @@ package com.javafoundations.app.semana4.commandpattern;
 
 public class RemoveItemCommand implements Command {
 
-  private Item item;
-  private String s;
+  private ItemManager item;
+  private String name;
 
-  public RemoveItemCommand(Item item, String s) {
+  public RemoveItemCommand(ItemManager item, String name) {
     this.item = item;
-    this.s = s;
+    this.name = name;
   }
 
   @Override
   public void execute() {
-    item.deleteItem(s);
+    item.deleteItem(name);
   }
 
   @Override
   public void undo() {
-    item.createItem(s);
+    item.createItem(name);
   }
 }
