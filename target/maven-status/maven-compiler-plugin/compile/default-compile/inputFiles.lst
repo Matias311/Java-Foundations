@@ -24,3 +24,8 @@
 /Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana4/StrategyPattern/SortStrategy.java
 /Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana4/StrategyPattern/SortTasks.java
 /Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana4/StrategyPattern/Task.java
+/Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana4/commandpattern/AddItemCommand.java
+/Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana4/commandpattern/Command.java
+/Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana4/commandpattern/CommandHistory.java
+/Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana4/commandpattern/Item.java
+/Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana4/commandpattern/RemoveItemCommand.java
