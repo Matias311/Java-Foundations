@@ -15,6 +15,10 @@
 /Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana3/salesanalytics/model/SaleRecord.java
 /Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana3/salesanalytics/parser/ParserCsv.java
 /Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana3/salesanalytics/service/SalesAnalyticsService.java
+/Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana4/ObserverPattern/AuditLogListener.java
+/Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana4/ObserverPattern/EventPublisher.java
+/Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana4/ObserverPattern/MetricsListener.java
+/Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana4/ObserverPattern/NotifyObserver.java
 /Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana4/StrategyPattern/SortByDueDate.java
 /Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana4/StrategyPattern/SortByPriority.java
 /Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana4/StrategyPattern/SortStrategy.java
