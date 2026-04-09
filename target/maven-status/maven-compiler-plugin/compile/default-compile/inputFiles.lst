@@ -29,4 +29,9 @@
 /Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana4/commandpattern/CommandHistory.java
 /Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana4/commandpattern/ItemManager.java
 /Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana4/commandpattern/RemoveItemCommand.java
-/Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana7/Test.java
+/Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana7/ExecutorServiceExample.java
+/Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana7/FutureWithCallableExample.java
+/Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana7/RunnableExample.java
+/Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana7/ThreadExample.java
+/Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana8/ClientHandler.java
+/Users/matias/dev/Java/java-foundations/src/main/java/com/javafoundations/app/semana8/EchoServer.java

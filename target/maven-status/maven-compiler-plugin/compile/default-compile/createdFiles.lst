@@ -3,7 +3,7 @@ com/javafoundations/app/semana3/salesanalytics/SalesAnalyticsApp.class
 com/javafoundations/app/semana2/repository/InMemoryRepository.class
 com/javafoundations/app/semana4/StrategyPattern/SortTasks.class
 com/javafoundations/app/semana3/salesanalytics/model/SaleRecord.class
-com/javafoundations/app/semana7/Test.class
+com/javafoundations/app/semana7/ThreadExample.class
 com/javafoundations/app/semana2/Operation.class
 com/javafoundations/app/semana4/ObserverPattern/AuditLogListener.class
 com/javafoundations/app/semana3/salesanalytics/model/ProductRevenue.class
@@ -12,9 +12,11 @@ com/javafoundations/app/semana2/CalculatorFunctionalInterfaces.class
 com/javafoundations/app/semana2/repository/NotFoundException.class
 com/javafoundations/app/semana1/NumberBox.class
 com/javafoundations/app/semana3/salesanalytics/model/ProductQuantity.class
+com/javafoundations/app/semana8/EchoServer.class
 com/javafoundations/app/semana4/StrategyPattern/SortByPriority.class
 com/javafoundations/app/semana4/commandpattern/RemoveItemCommand.class
 com/javafoundations/app/semana4/ObserverPattern/EventPublisher.class
+com/javafoundations/app/semana7/FutureWithCallableExample.class
 com/javafoundations/app/semana4/StrategyPattern/SortStrategy.class
 com/javafoundations/app/semana1/Box.class
 com/javafoundations/app/semana3/salesanalytics/exceptions/FileArgumentException.class
@@ -29,4 +31,7 @@ com/javafoundations/app/semana2/repository/Repository.class
 com/javafoundations/app/semana3/salesanalytics/service/SalesAnalyticsService.class
 com/javafoundations/app/semana4/StrategyPattern/SortByDueDate.class
 com/javafoundations/app/semana3/salesanalytics/parser/ParserCsv.class
+com/javafoundations/app/semana8/ClientHandler.class
+com/javafoundations/app/semana7/RunnableExample.class
 com/javafoundations/app/semana3/salesanalytics/model/CategoryRevenue.class
+com/javafoundations/app/semana7/ExecutorServiceExample.class
